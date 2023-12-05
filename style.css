@@ -1,0 +1,45 @@
+.container {
+    background-color: rgb(167, 37, 37);
+    height: 100px;
+    width: 200px;
+    /* padding:100px 100px 0px 100px; */
+    margin-top: 200px;
+    margin-left: 400px;
+    position: absolute; 
+    /* top: 50%; 
+    left: 50%;  */
+    transform: translate(-50%, -50%);
+    border-radius: 0 0 150px 150px;
+}
+#orange {
+    background-color: rgb(255, 172, 28);
+    height: 60px;
+    width: 200px;
+    margin-top: -30px;
+    border-radius: 50%;
+}
+#outer-flame {
+    background-color: rgb(233, 142, 24);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px 0;
+    margin-top: -123px;
+    margin-left: 50px;
+    transform: rotate(135deg);
+}
+#inner-flame {
+    background-color: yellow;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px 0;
+    transform: rotate(135deg);
+    margin-top: -70px ;
+    margin-left: 65px ;
+}
+/* #happy-diwali {
+    margin-top: 500px;
+    background-color: yellow;
+} */
+h1 {
+    margin: 100px;
+}
